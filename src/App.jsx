@@ -14,7 +14,7 @@
 //     if (themeColor) {
 //       setTheme(themeColor);
 //     }
-  
+
 //     const savedChats = localStorage.getItem('all-chats');
 //     if (savedChats) {
 //       const defaultTextDiv = document.createElement('div');
@@ -22,8 +22,6 @@
 //       setChatHistory([<div className="default-text" key="default-text">{defaultTextDiv}</div>]);
 //     }
 //   }, []);
-  
-
 
 //   const handleOutgoingChat = () => {
 //     if (!userText.trim()) return;
@@ -167,8 +165,9 @@
 
 // export default App;
 
-import './chatbot.css';
+import "./chatbot.css";
 import React from "react";
+import "react-chatbot-kit/build/main.css";
 import Chatbot from "react-chatbot-kit";
 import config from "./components/config";
 import MessageParser from "./components/messageparser";
